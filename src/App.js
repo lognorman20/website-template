@@ -1,6 +1,8 @@
+import { Intro } from "./components/views/Intro";
+
 function App() {
   return (
-    <h1>HELLOOOO</h1>
+    <Intro />
   );
 }
 
