@@ -1,19 +1,15 @@
 import { Intro } from "./components/views/Intro";
-import { Divider } from '@mui/material';
+import { Divider, ThemeProvider } from '@mui/material';
+import customTheme from './customTheme';
 
 function App() {
   return (
-    <div style={{ maxWidth: '55%', margin: '0 auto', display: 'flex', flexWrap: 'wrap', flexDirection: 'column', justifyContent: 'center' }}>
-      <Intro />
-      <Divider />
-      <Intro />
-      <Divider />
-      <Intro />
-      <Divider />
-      <Intro />
-      <Divider />
-      <Intro />
-    </div>
+      <ThemeProvider theme={customTheme}>
+        <>
+          <Intro />
+          <Divider />
+        </>
+      </ThemeProvider>
   );
 }
 
