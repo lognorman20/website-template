@@ -1,14 +1,12 @@
-import { Intro } from "./components/views/Intro";
+import { Intro } from "./components/Intro";
 import { Divider, ThemeProvider } from '@mui/material';
 import customTheme from './customTheme';
 
 function App() {
   return (
       <ThemeProvider theme={customTheme}>
-        <>
           <Intro />
-          <Divider />
-        </>
+          <Divider sx={{ my: 2}} />
       </ThemeProvider>
   );
 }
