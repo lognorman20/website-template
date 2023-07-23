@@ -1,23 +1,21 @@
-import { Box, Typography, Link } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import { Nav } from "./Nav";
 
 export function Intro() {
     return (
-        <Box
-          display="flex"
-          flexDirection="column"
-          borderRadius='12px'
-        >
-            {/* page title section */}
-            <Typography align="center" variant="h2">
-                college application guide
-            </Typography>
-            {/* written by me section */}
-            <Typography align="center" variant="body1">
-                written by{' '}
-                <Link href="https://lognorman.medium.com/" target="_blank" rel="noopener">
-                    logan norman
-                </Link>{' '}
-            </Typography>
-        </Box>
-    )
+        <div id="intro">
+            <Box m={1}>
+                <Typography variant="body1">
+                    if you're reading this guide, i'm sure you've heard a lot about
+                    the college application process already. this guide servers to
+                    be a supplement to your current knowledge and a springboard to
+                    other resources that might be of use to you. additionally, it
+                    aims to provide a way of thinking about the application process
+                    to help you reach your goals. here's the topics that are going
+                    to be covered:
+                </Typography>
+                <Nav />
+            </Box>
+        </div>
+    );
 }
