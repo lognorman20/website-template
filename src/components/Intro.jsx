@@ -14,8 +14,32 @@ export function Intro() {
                     to help you reach your goals. here's the topics that are going
                     to be covered:
                 </Typography>
-                <Nav />
             </Box>
+            <Nav />
+
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
+            <h1>grerr</h1>
         </div>
     );
 }

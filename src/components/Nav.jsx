@@ -1,6 +1,6 @@
 // Nav.js
 import React from 'react';
-import { Box, List, ListItemButton, } from '@mui/material';
+import { List, ListItemButton, } from '@mui/material';
 import { Link as ScrollLink } from 'react-scroll';
 
 const flexContainer = {
@@ -33,23 +33,18 @@ export function Nav() {
       </ListItemButton>
 
       <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
+        <ScrollLink
+          activeClass="active"
+          to="scholarships"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={300}
+        >
+          <h3>scholarships</h3>
+        </ScrollLink>
       </ListItemButton>
-      <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
-      </ListItemButton>
-      <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
-      </ListItemButton>
-      <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
-      </ListItemButton>
-      <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
-      </ListItemButton>
-      <ListItemButton style={buttonStyle} disableRipple>
-        <h3>ahsdfklsldfh</h3>
-      </ListItemButton>
+
     </List>
   );
 };
