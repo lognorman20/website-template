@@ -15,7 +15,7 @@ export function Header() {
                 </Typography>
             </Box>
             {/* written by me */}
-            <Typography align="center" variant="body1">
+            <Typography align="center" variant="h6">
                 written by{' '}
                 <Link href="https://lognorman.medium.com/" target="_blank" rel="noopener">
                     logan norman

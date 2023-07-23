@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { Nav } from "./Nav";
+import { Nav } from "../Nav";
 
 export function Intro() {
     return (
@@ -16,30 +16,6 @@ export function Intro() {
                 </Typography>
             </Box>
             <Nav />
-
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
-            <h1>grerr</h1>
         </div>
     );
 }

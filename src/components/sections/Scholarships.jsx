@@ -1,7 +1,7 @@
 export function Scholarships() {
     return (
         <div id="scholarships">
-            <h1>aint not way boa</h1>
+            <h1>scholarships</h1>
         </div>
     );
 }

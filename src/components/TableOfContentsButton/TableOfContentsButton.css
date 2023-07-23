@@ -1,0 +1,14 @@
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.toc-list {
+  position: fixed;
+  bottom: 60px; /* Adjust the bottom value to reduce the space */
+  left: 5px; /* Adjust the right value as needed */
+  background-color: #fff;
+  padding: 3px;
+  max-width: 200px;
+}
